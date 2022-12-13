@@ -4,13 +4,13 @@
  * main - Entry
  * Return: Always 0
  */
+
 void print_alphabet(void)
 {
-	char ne;
+	char la;
 
-	for (ne = 'a'; ne <= 'z'; ne++)
-		putchar(ne);
-	putchar('\n');
-	
+	for (la = 'a'; la <= 'z'; la++)
+		_putchar(la);
+	_putchar('\n');
 	return (0);
 }
