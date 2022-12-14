@@ -4,7 +4,7 @@
 * print_to_98 - prints numbers from n to 98
 * @n: the starting number
 */
-void print_to_98(void)
+void print_to_98(int n)
 {
 	if (n >= 98)
 	{
