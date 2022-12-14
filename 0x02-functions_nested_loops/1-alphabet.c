@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry
- * Description: The programs description
- * Return: Always 0
+ * print_alphabet - prints the alpha in lower case
  */
-int maim(void)
 void print_alphabet(void)
 {
 	char k;

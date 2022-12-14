@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - entry
- * Description: And this is it
- * return: Always 0
+ * print_alphabet_x10 - Prints alpha ten times
  */
 void print_alphabet_x10(void)
 {
