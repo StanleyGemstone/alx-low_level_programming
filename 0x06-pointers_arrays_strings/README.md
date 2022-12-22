@@ -1,0 +1,1 @@
+All projests on pointers_arrays_strings
