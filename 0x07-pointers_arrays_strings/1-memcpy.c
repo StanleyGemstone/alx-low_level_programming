@@ -1,10 +1,10 @@
 #include "main.h"
-/*
- * _memcpy - copy vlues a var
- * @dest: destination
- * @src: source
+/**
+ * _memcpy - copy values of a var
+ * @dest: destination to paste
+ * @src: source to copy
  * @n: number of byte to copy
- * Return: dest
+ * Return: Always 0
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)

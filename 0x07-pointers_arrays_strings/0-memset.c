@@ -1,6 +1,7 @@
 #include "main.h"
-/*
+/**
  * _memset - add value to a memory
+ * @s: string
  * @b: value to be added
  * @n: number of bytes to be added
  * Return: return 0

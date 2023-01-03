@@ -3,7 +3,7 @@
 /**
  * print_diagsums - Prints sum of diagonal matrix
  * @a: Var
- * @size: Var
+ * @size: Var2
  * Return: Always 0
  */
 
