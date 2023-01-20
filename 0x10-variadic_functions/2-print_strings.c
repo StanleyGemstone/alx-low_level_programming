@@ -1,12 +1,13 @@
-#include <stdio.h>
 #include "variadic_functions.h"
+#include <stdarg.h>
+#include <stdio.h>
 
 /**
- *print_strings - entry point
- *@separator: comma and space
- *@n: number of argument
+ * print_strings - entry point
+ * @separator: comma and space
+ * @n: number of argument
  *
- *Return: void
+ * Return: void
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
