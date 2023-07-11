@@ -13,6 +13,7 @@ void print_all(const char * const format, ...);
  * @arg: A list of arguments pointing to
  *       the character to be printed.
  */
+
 void print_char(va_list arg)
 {
 	char letter;
@@ -80,13 +81,13 @@ void print_all(const char * const format, ...)
 	va_list args;
 	int i = 0, j = 0;
 	char *separator = "";
+
 	printer_t funcs[] = {
 		{"c", print_char},
 		{"i", print_int},
 		{"f", print_float},
 		{"s", print_string}
 	};
-
 	va_start(args, format);
 
 	while (format && (*(format + i)))
@@ -97,7 +98,7 @@ void print_all(const char * const format, ...)
 		if (j < 4)
 		{
 			printf("%s", separator);
-			funcs[j].print(args);
+			s[j].print(args);
 			separator = ", ";
 		}
 		i++;
